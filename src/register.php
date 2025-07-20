@@ -13,7 +13,7 @@ $sql = "INSERT INTO `users` (login,password) VALUES ('$login', '$password')";
 
 if ($connect->query($sql) === TRUE) {
     // echo "Регистрация прошла успешно";
-    header('Location: ../login.html');
+    header('Location: ../profile.php');
 } else {
     echo "Данный пользователь уже существует";
 }

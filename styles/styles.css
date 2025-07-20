@@ -23,7 +23,7 @@ body {
 }
 
 .login__wrapper {
-  max-width: 700px;
+    max-width: 700px;
     margin: 50px auto;
     padding: 20px;
     font-size: 18px;
@@ -47,13 +47,14 @@ body {
     background: #0056b3;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
+
 input {
     width: 100%;
     max-width: 400px;
@@ -61,14 +62,31 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+.btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #007bff;
+}
+
 button {
     padding: 10px 20px;
     background: #007bff;
     color: white;
-    border: none;    
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+
+}
+
+.btn:hover{
+    background: #0056b3;
 }
 button:hover {
     background: #0056b3;
